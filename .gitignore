@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# MacOS Finder
+.DS_Store
+
+
+# ignore all generated test files
+Test_Cases/

@@ -1,0 +1,7 @@
+[project]
+name = "hierarchical-taskset-generator"
+version = "0.1.0"
+description = "Hierarchical Taskset Generator for Distributed Real-Time Systems in Python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy", "tabulate"]
