@@ -1,7 +1,7 @@
 
 # Hierarchical Taskset Generator
 
-A tool for generating synthetic tasksets for hierarchical scheduling systems with multiple cores, components, and tasks (both periodic and sporadic) using EDF (Earliest Deadline First) and RM (Rate Monotonic) scheduling algorithms.
+A tool for generating synthetic tasksets for hierarchical scheduling systems with multiple cores, components, and tasks (both periodic and sporadic) using EDF (Earliest Deadline First) and RM (Rate Monotonic) scheduling algorithms. This implementation adapts some of the logic from https://github.com/porya-gohary/real-time-task-generators
 
 ## TODO List
 1. Implement setup.py to make importable as a package
@@ -130,7 +130,4 @@ The generator follows these main steps:
 7.  **Schedulability Adjustment (Heuristic)**: If `--unschedulable` is set, heuristically increase WCETs for tasks in a randomly chosen component. If generating a schedulable system, basic checks and adjustments are made (e.g., capping task WCETs based on utilization bounds or server budgets). *Note: Ensuring true schedulability in hierarchical systems with sporadic tasks is complex and may require a separate analysis tool.*
 8.  **CSV Generation**: Write the core, component (including server parameters), and task (including type and deadline) definitions to CSV files using `writer.py`.
 
-## License
 
-MIT License
-```
