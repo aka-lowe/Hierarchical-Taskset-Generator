@@ -1,12 +1,10 @@
-```markdown
+
 # Hierarchical Taskset Generator
 
 A tool for generating synthetic tasksets for hierarchical scheduling systems with multiple cores, components, and tasks (both periodic and sporadic) using EDF (Earliest Deadline First) and RM (Rate Monotonic) scheduling algorithms.
 
 ## TODO List
 1. Implement setup.py to make importable as a package
-
-
 
 ## Overview
 
